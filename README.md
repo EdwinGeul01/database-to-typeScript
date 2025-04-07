@@ -51,7 +51,7 @@ $ npm run sync-db
 - install the package globally
 
 ```bash
-$ npm i -g database-to-types
+$ npm i -g database-to-typescript
 ```
 
 - run the following command
