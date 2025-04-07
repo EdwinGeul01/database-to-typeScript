@@ -1,6 +1,6 @@
 # Mysql to Typescript interfaces
 
-![alt](https://raw.githubusercontent.com/EdwinGeul01/mysql-to-types/refs/heads/main/banner.png)
+![alt](https://raw.githubusercontent.com/EdwinGeul01/database-to-typeScript/refs/heads/main/banner.png)
 
 Lib to help conver a mysql schema to typescript interfaces
 
