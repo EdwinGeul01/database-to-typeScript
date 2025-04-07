@@ -1,0 +1,43 @@
+{
+  "name": "database-to-typescript",
+  "version": "1.0.25",
+  "description": "create a ts interfaces from a db schema",
+  "main": "./bin/src/main.js",
+  "types": "./bin/src/main.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EdwinGeul01/database-to-typeScript"
+  },
+  "keywords": [
+    "typescript",
+    "mysql",
+    "database",
+    "types",
+    "ts",
+    "interface",
+    "generator"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./bin/src/main.js",
+    "build": "tsc",
+    "db-to-ts": "node ./bin/src/main.js",
+    "uri": "node ./bin/src/main.js -s mysql://username:password@host:port/database -f ./interfaces1212.ts -p asd_"
+  },
+  "bin": {
+    "sync-db": "./bin/src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "database-to-types-lib": "^1.0.24",
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.11.5",
+    "tsx": "^4.19.2"
+  },
+  "packageManager": "pnpm@9.15.2+sha512.93e57b0126f0df74ce6bff29680394c0ba54ec47246b9cf321f0121d8d9bb03f750a705f24edc3c1180853afd7c2c3b94196d0a3d53d3e069d9e2793ef11f321",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.7.3"
+  }
+}
