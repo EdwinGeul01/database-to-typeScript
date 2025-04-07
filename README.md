@@ -1,4 +1,4 @@
-# Mysql to Typescript interfaces
+# Database to Typescript interfaces  ( Functionality ) 
 
 ![alt](https://raw.githubusercontent.com/EdwinGeul01/database-to-typeScript/refs/heads/main/banner.png)
 
