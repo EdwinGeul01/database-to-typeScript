@@ -1,4 +1,4 @@
-import { connectionSettings } from "database-to-types-lib";
+import { connectionSettings } from "database-to-typescript-lib";
 import * as fs from "fs";
 
 export function getConnectionSettings(): connectionSettings {

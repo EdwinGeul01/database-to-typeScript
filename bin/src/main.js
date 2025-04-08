@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 require("dotenv/config");
-const database_to_types_lib_1 = require("database-to-types-lib");
+const database_to_typescript_lib_1 = require("database-to-typescript-lib");
 const connection_settings_1 = require("../connection/connection-settings");
 //read the connection settings from a json file
 let settings;
@@ -24,8 +24,8 @@ function readSettings() {
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         yield readSettings();
-        const tables = yield (0, database_to_types_lib_1.getTablesRegisters)(settings);
-        yield (0, database_to_types_lib_1.createInterfaceFile)(tables, settings.options);
+        const tables = yield (0, database_to_typescript_lib_1.getTablesRegisters)(settings);
+        yield (0, database_to_typescript_lib_1.createInterfaceFile)(tables, settings.options);
         console.log("file created, Done 🎉");
         process.exit(0);
     });
