@@ -1,6 +1,6 @@
 {
   "name": "database-to-typescript",
-  "version": "1.0.25",
+  "version": "1.0.24",
   "description": "create a ts interfaces from a db schema",
   "main": "./bin/src/main.js",
   "types": "./bin/src/main.d.ts",
@@ -30,7 +30,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "database-to-types-lib": "^1.0.24",
+    "database-to-typescript-lib": "^1.0.26",
     "dotenv": "^16.4.7",
     "mysql2": "^3.11.5",
     "tsx": "^4.19.2"

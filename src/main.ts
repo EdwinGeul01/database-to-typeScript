@@ -5,9 +5,9 @@ import {
   connectionSettings,
   createInterfaceFile,
   getTablesRegisters,
-} from "database-to-types-lib";
+} from "database-to-typescript-lib";
 import { getConnectionSettings } from "../connection/connection-settings";
-import { table } from "database-to-types-lib/bin/_interface/table.interface";
+import { table } from "database-to-typescript-lib/bin/_interface/table.interface";
 
 //read the connection settings from a json file
 
